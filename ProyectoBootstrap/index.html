@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <link rel="stylesheet" href="/CSS/estilosInfografia.css">
+    <title>Proyecto Bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-9">                
+                <div class="header-column-left">
+                    <h1>Radio UMH</h1>
+                    <h2>Lo mejor esta por escucharse</h2>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-none d-md-block">
+                <!-- 1ER COMPONENTE BOOTSTRAP -->
+                <div class="header-column">
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container-fluid">
+                            <form class="d-flex" action="https://www.google.com/search" method="GET" target="_blank" role="search" style="background-color: #f0f0f0;">
+                                <input class="form-control me-2" type="search" id="buscador" name="q" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+              
+        <div class="row">
+            <div class="col-12 col-md-3 col-lg-2">
+                <ul class="nav d-flex flex-column flex-md-row p-3">
+                    <li class="nav-item mb-3 actual">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link" href="/plantillas/noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link" href="/plantillas/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link" href="/plantillas/podcast.html">Podcasts</a>                        
+                    </li>
+                </ul>
+            </div>
+                
+            <div class="col-12 col-md-9 col-lg-7">    
+                <section>
+                        <h2>Bienvenidos a Radio UMH</h2>
+                        <p>
+                            Creado en octubre de 2007, Radio UMH es un canal de comunicación pública dirigido por estudiantes de marketing y comunicaciones de la Universidad Miguel Hernández.
+                            Este sitio web está diseñado para que explores el impacto de Radio UMH en la vida estudiantil, conozcas nuestros programas, descubras las últimas noticias y te mantengas al tanto de los eventos y proyectos más destacados de nuestra comunidad universitaria.
+                        </p>
+                </section>
+                <section>
+                        <h2>¿Qué es un podcast?</h2>
+                        <p>Un podcast es un programa de audio que se distribuye en línea, permitiendo a los oyentes escuchar episodios sobre diversos temas en cualquier momento y lugar.</p>
+                        <h2>¿Para qué sirve un podcast?</h2>
+                        <p>Sirve para informar, entretener o educar, con contenido que va desde noticias y entrevistas hasta narrativa y análisis especializado.</p>
+                        <h3 style="text-align: center;">Escucha nuestros mejores programas</h3>
+                        <div class="apartado-programas">
+                            <div class="card" style="width: 18rem;">
+                                <a href="/plantillas/podcast.html#ciencia">
+                                    <img loading="lazy" class="card-img-top-programas" style="margin-bottom: 5px" title="CIENCIAS" src="https://radio.umh.es/files/2021/09/CIENCIA.jpg" alt="CIENCIAS">
+                                </a>
+                                <div class="card-body">
+                                  <p class="card-text">Escucha nuestro programa de Ciencias</p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <a href="/plantillas/podcast.html#actualidad">
+                                    <img loading="lazy" class="card-img-top-programas" style="margin-bottom: 5px" title="DEPORTES" src="https://radio.umh.es/files/2021/09/ACTUALIDAD.jpg" alt="ACTUALIDAD">
+                                </a>                            
+                                <div class="card-body">
+                                  <p class="card-text">Escucha nuestro programa de actualidades</p>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section>
+                        <h2>Noticias</h2>
+                        <p> Descubre las últimas noticias del mundo del podcast, con titulares, subtítulos y detalles sobre el ámbito, autoría y fecha de publicación. Cada noticia está organizada con un estilo único según su ámbito y un enlace a la fuente original para profundizar en los temas.</p>
+                        <h3 style="text-align: center;">Mantente al tanto de lo nuevo en el mundo podcast nacional e internacionalmente</h3>                        
+                        <div id="carouselExample" class="carousel slide carrusel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="/plantillas/noticias.html#auge"><img src="/Imagenes/Noticias/augePodcast.avif" class="imagenCarrusel" alt="Auge Podcast"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="/plantillas/noticias.html#20aniversario"><img src="/Imagenes/Noticias/augePodcastv2.png" class="imagenCarrusel" alt="Aniversario Podcast"></a>                                
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="/plantillas/noticias.html#100podcastMasEscuchados"><img src="/Imagenes/Noticias/podtail.png" class="imagenCarrusel" alt="Los 100 podcast mas escuchados en Peru"></a>                                
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="/plantillas/noticias.html#exportacion"><img src="/Imagenes/Noticias/exportacion.jpeg" class="imagenCarrusel" alt="Google Podcast a Ytf Music"></a>                                
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                </section>
+                <section>
+                    <h2>Contacto</h2>
+                    <p>En esta página podrás contactarnos y obtener información sobre nuestras sedes.
+                       Podrás encontrar un formulario de contacto donde podrás dejar tu información correspondiente para contactarte con Radio UMH.
+                       A su vez, podrás encontrar detalles sobre nuestras sedes físicas, con mapas de Google integrados para una mejor localización. 
+                    </p>
+                </section>
+            </div>
+            
+            <div class="d-none d-lg-block col-lg-3">
+                <h2 class="infoh2">Brainstorming</h2>
+                <div class="contenedor">                    
+                    <div class="elementos">
+                        <div class="caja">
+                            <div class="info">
+                                <h3>1. Brief</h3>
+                                <p>Parrafo 1</p> 
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/brief.png" alt="Brief">
+                            </div>
+                        </div>
+        
+                        <div class="caja">
+                            <div class="info">
+                                <h3>2. Brainstorming</h3>
+                                <p>Parrafo 2</p>
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/brainstorming.png" alt="brainstorming">
+                            </div>
+                        </div>
+        
+                        <div class="caja">
+                            <div class="info">
+                                <h3>3. Sketch</h3>
+                                <p>Parrafo 3</p>
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/sketch.png" alt="sketch">
+                            </div>
+                        </div>
+                        
+                        <div class="caja">
+                            <div class="info">
+                                <h3>4. Solution</h3>
+                                <p>Parrafo 4</p>
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/solution.png" alt="solution">
+                            </div>
+                        </div>
+        
+                        <div class="caja">
+                            <div class="info">
+                                <h3>5. Design</h3>
+                                <p>Parrafo 5</p>
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/design.png" alt="design">
+                            </div>
+                        </div>
+                        
+                        <div class="caja">
+                            <div class="info">
+                                <h3>6. Revision</h3>
+                                <p>Parrafo 5</p>
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/revision.png" alt="revision">
+                            </div>
+                        </div>
+        
+                        <div class="caja">
+                            <div class="info">
+                                <h3>7. Presentation</h3>
+                                <p>Parrafo 7</p>
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/presentation.png" alt="presentation">
+                            </div>
+                        </div>
+                        
+                        <div class="caja">
+                            <div class="info">
+                                <h3>8. Deliver</h3>
+                                <p>Parrafo 8</p>
+                            </div>
+                            <div class="imagen">
+                                <img src="/Imagenes/infografia/deliver.png" alt="deliver">
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PIE DE PAGINA -->
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+                <p class="nombre">Jordi Wild</p>
+                <p>
+                    Es un youtuber, podcaster y celebridad de internet español.
+                    Creador del canal de Youtube El Rincón de Giorgio que cuenta con 12 millones de suscriptores.
+                </p>
+                <p class="nombre">Radio UMH</p>
+                <p>
+                    Canal de comunicación público adscrita a la UMH dirigida por estudiantes de comunicación y marketing.
+                    Su objetivo es promover una mayor vinculacion entre la comunidad universitaria y la sociedad.
+                </p>
+            </div>
+            <div class="d-none d-lg-block col-lg-4">
+                <div class="validadores">
+                    <div class="validadores-css">
+                        <div class="validador">
+                            <p>Validacion estilos.css</p>
+                            <p>
+                                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                    <img style="border:0;width:88px;height:31px"
+                                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                        alt="¡CSS Válido!">
+                                </a>
+                            </p>
+                        </div>
+                        <div class="validador">
+                            <p>Validacion estilosInfografia.css</p>
+                            <p>
+                                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                    <img style="border:0;width:88px;height:31px"
+                                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                        alt="¡CSS Válido!">
+                                </a>
+                            </p>
+                        </div>                                     
+                    </div>
+                    <div class="validadores-html">
+                        <div class="validador">
+                            <p>Validador index.html</p>
+                            <img src="/Imagenes/Validaciones/validacionIndexHtml.png" alt="Validacion Index">
+                        </div>
+                        <div class="validador">
+                            <p>Validador contacto.html</p>
+                            <img src="/Imagenes/Validaciones/validacionIContactoHtml.png" alt="Validacion Index">
+                        </div>
+                        <div class="validador">
+                            <p>Validador noticias.html</p>
+                            <img src="/Imagenes/Validaciones/validacionNoticiasHtml.png" alt="Validacion Index">
+                        </div>
+                        <div class="validador">
+                            <p>Validador podcast.html</p>
+                            <img src="/Imagenes/Validaciones/validacionPodcastHtml.png" alt="Validacion Index">
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="d-none d-lg-block col-lg-4">
+                <div class="redes">
+                    <div class="imagenes">
+                        <a href="https://www.facebook.com/MundoChampionsUMH" target="_blank">
+                            <img src="/Imagenes/logoFacebook.png" alt="Logo Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/radio_umh/" target="_blank">
+                            <img src="/Imagenes/logoInstagram.png" alt="Logo Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <script src="/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
